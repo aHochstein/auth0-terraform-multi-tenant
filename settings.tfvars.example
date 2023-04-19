@@ -1,0 +1,17 @@
+tenant-a = {
+  domain        = "<domain>"
+  client_id     = "<client_id>"
+  client_secret = "<client_secret>"
+}
+
+tenant-b = {
+  domain        = "<domain>"
+  client_id     = "<client_id>"
+  client_secret = "<client_secret>"
+}
+
+tenant-c = {
+  domain        = "<domain>"
+  client_id     = "<client_id>"
+  client_secret = "<client_secret>"
+}
