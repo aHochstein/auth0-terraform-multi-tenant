@@ -8,6 +8,6 @@ The usage of shared modules allowes for standard tenant setup enforcement - addi
 How to run this example:
 
 1. Create three auth0 tenants - in every tenant create a M2M Application with Management API Scopes and note the Client_id And Client_Secret as also the Tenant Domain
-2. Create a .tfvars file for the variables tenant_a, tenant_b and tenant_c
+2. Copy the ```settings.tfvars.example``` file into a ```settings.tfvars``` file and fill in the variables
 3. Run ```terraform init```
 4. Run ```terraform apply -var-file="{yourSettingsFile}```
