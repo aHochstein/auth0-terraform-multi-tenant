@@ -2,8 +2,10 @@
 Multi Tenant Terraform Setup with shared modules
 
 This Repository contains a multi tenant auth0 Setup. 
-Shared modules are located in the shared folder. Additonally every tenant has its own module that uses shared modules and auth0 terraform resources directly.
-The usage of shared modules allowes for standard tenant setup enforcement - additionally every tenant can then implement specifics with the resources directly.
+
+Each tenant is configured in its own module. The root module initiates all the tenant modules and provides the auth0 provider to them. Each tenant gets a own provider with an alias pointing to another tenant.
+
+Shared modules are located in the shared folder. The usage of shared modules allowes for standard tenant setup enforcement - additionally every tenant can then implement specifics with the resources directly.
 
 How to run this example:
 
